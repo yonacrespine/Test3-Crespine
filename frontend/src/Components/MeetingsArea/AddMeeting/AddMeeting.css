@@ -1,0 +1,59 @@
+.AddMeeting {
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    color:rgb(123, 14, 73);
+    border: 1px solid #333;
+    padding-top: 40px;
+}
+
+.form label{
+    position: relative;
+}
+
+
+.form label .input{
+    background-color:white;
+    
+    width: 100%;
+    padding: 25px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgb(123, 14, 73);
+    border-radius: 10px;
+
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+
+.submit{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color:rgb(212, 52, 137);
+}
+
+.submit:hover{
+    background-color:rgb(123, 14, 73);
+}
